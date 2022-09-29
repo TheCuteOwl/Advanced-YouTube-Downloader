@@ -1,11 +1,11 @@
 import pytube
 import ctypes
 from pystyle import *
-
+ctypes.windll.kernel32.SetConsoleTitleW("Youtube Downloader | By https://github.com/TheCuteOwl")
 url = input(Colorate.Horizontal(Colors.blue_to_green, 'Youtube URL : '))
 
 
-ctypes.windll.kernel32.SetConsoleTitleW("Youtube Downloader | By https://github.com/TheCuteOwl")
+
 resolution = input(Colorate.Horizontal(Colors.blue_to_green, '''What resolution do you want ?
  1 = Highest Resolution
  2 = Lowest
