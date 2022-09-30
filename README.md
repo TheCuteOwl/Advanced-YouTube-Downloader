@@ -2,10 +2,14 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 ### Big update is coming with stuff such as :
-Whole youtube channel download
-Playlist download 
-Thumbnail URL
 
+* Whole youtube channel download
+
+* Playlist download 
+
+* Thumbnail URL
+
+---
 * You can choose between :
 * Highest Quality
 * Lowest Quality
