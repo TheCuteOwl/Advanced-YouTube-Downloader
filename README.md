@@ -1,19 +1,27 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
-### Big update is coming with stuff such as :
-
-* Whole youtube channel download
-
-* Playlist download 
-
-* Thumbnail URL
 
 ---
 * You can choose between :
-* Highest Quality
-* Lowest Quality
-* Audio Only (mp3)
+
+  Video :
+    * Highest Quality
+  * Lowest Quality
+  * Audio Only (mp3)
+  
+  Playlist :
+    * Highest Quality
+  * Lowest Quality
+  * Audio Only (mp3)
+  
+  All video on a channel :
+  * Highest Quality
+  * Lowest Quality
+  * Audio Only (mp3)
+
+  Thumbnail :
+    * Download thumbnail of any video
 
 -----
 
@@ -32,6 +40,7 @@ That just a simple Youtube Downloader
 
 * <a href="https://github.com/billythegoat356/pystyle">PyStyle</a>
 * <a href="https://pypi.org/project/pytube/">Pytube</a>
+* <a href="https://pypi.org/project/requests/">Requests</a>
 ---
 <p align="center"><strong><i>⚠️ Important information :</i></strong</p>
 
