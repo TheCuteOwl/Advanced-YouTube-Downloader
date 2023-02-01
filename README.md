@@ -38,7 +38,6 @@ That just a simple Youtube Downloader
   -----
 <p align="center"><i>✔️ All the library i use :</i></p>
 
-* <a href="https://github.com/billythegoat356/pystyle">PyStyle</a>
 * <a href="https://pypi.org/project/pytube/">Pytube</a>
 * <a href="https://pypi.org/project/requests/">Requests</a>
 ---
