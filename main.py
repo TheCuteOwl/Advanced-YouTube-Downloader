@@ -10,7 +10,7 @@ def thumbnail():
     d = YouTube(url)
     img_data = requests.get(d.thumbnail_url).content
 
-    with open('Thumbnail.jpg', 'wb') as handler:
+    with open('Thumbnail.jpg' 'wb') as handler:
         handler.write(img_data)
     input('Succesfully downloaded press enter to quit')
     quit()
@@ -20,10 +20,10 @@ def playlistdownload():
     p = input('Playlist URL :')
     playlist = Playlist(p)
     print(f'Downloading videos from : ' + str(playlist))
-    resolution2 = input(Colorate.Horizontal(Colors.blue_to_green, '''What resolution do you want ?
+    resolution2 = input('''What resolution do you want ?
          1 = Highest Resolution
          2 = Lowest
-         3 = Audio Only'''))
+         3 = Audio Only''')
 
     number = 0
     if resolution2 == '1':
@@ -56,10 +56,10 @@ def channeldownload():
     channel = Channel(c)
     print(f'Downloading videos by:' + channel.channel_name)
     number = 0
-    resolution2 = input(Colorate.Horizontal(Colors.blue_to_green, '''What resolution do you want ?
+    resolution2 = input( '''What resolution do you want ?
      1 = Highest Resolution
      2 = Lowest
-     3 = Audio Only'''))
+     3 = Audio Only''')
 
     if resolution2 == '1':
         for video in channel.videos:
@@ -86,34 +86,34 @@ def channeldownload():
     exit()
 
 
-Choosing = input(Colorate.Horizontal(Colors.blue_to_green, '''
+Choosing = input( '''
  Do you want to download 1 video 
  or a whole channel video ? :
  [1] One video
  [2] A whole channel video
  [3] A whole playlist
- [4] Thumbnail'''))
+ [4] Thumbnail''')
 
 
 if Choosing == '1':
-    url = input(Colorate.Horizontal(Colors.blue_to_green, 'Youtube URL (Video or Channe:l : '))
+    url = input( 'Youtube URL (Video or Channe:l : ')
 elif Choosing == '2':
     channeldownload()
 elif Choosing == '3':
     playlistdownload()
 elif Choosing == '4':
-    url = input(Colorate.Horizontal(Colors.blue_to_green, 'Youtube URL : '))
+    url = input( 'Youtube URL : ')
     yt = pytube.YouTube(url)
     thumbnail()
 
 ctypes.windll.kernel32.SetConsoleTitleW("Youtube Downloader | By https://github.com/TheCuteOwl")
 
-resolution = input(Colorate.Horizontal(Colors.blue_to_green, '''What resolution do you want ?
+resolution = input( '''What resolution do you want ?
  1 = Highest Resolution
  2 = Lowest
  3 = Audio
  
-'''))
+''')
 
 
 if resolution == '1''2''3':
