@@ -1,6 +1,5 @@
 from pytube import *
 import ctypes
-from pystyle import *
 import requests
 
 url = ''
